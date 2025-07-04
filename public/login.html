@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>로그인</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="center-wrapper">
+    <div class="login-container">
+      <h2>로그인</h2>
+      <form action="/login" method="post">
+        <div class="input-row">
+          <input type="text" id="username" name="username" required placeholder="아이디">
+        </div>
+        <div class="input-row">
+          <input type="password" id="password" name="password" required placeholder="비밀번호">
+        </div>
+        <button type="submit" class="login-btn">로그인</button>
+      </form>
+      <div class="actions">
+        <a href="/register">회원가입</a>
+        <span>|</span>
+        <a href="/find-id">아이디 찾기</a>
+        <span>|</span>
+        <a href="/find-password">비밀번호 찾기</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

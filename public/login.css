@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* 중앙배치용 래퍼 */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f6fc;
+}
+
+.login-container {
+  background: #fff;
+  padding: 40px 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(30,40,90,0.10);
+  min-width: 340px;
+  text-align: center;
+}
+
+.input-row {
+  margin-bottom: 18px;
+}
+.input-row input {
+  width: 100%;           
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+.input-row input:focus {
+  border-color: #5271ff;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;              
+  background: #5271ff;
+  color: #fff;
+  padding: 12px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.2s;
+  box-sizing: border-box;    
+}
+.login-btn:hover {
+  background: #354dbf;
+}
+.actions {
+  margin-top: 22px;
+  font-size: 14px;
+  color: #666;
+}
+.actions a {
+  color: #5271ff;
+  text-decoration: none;
+  margin: 0 6px;
+}
+.actions a:hover {
+  text-decoration: underline;
+}
